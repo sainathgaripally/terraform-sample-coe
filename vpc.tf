@@ -5,7 +5,7 @@ resource "aws_vpc" "myvpc" {
   }
 }
 
-resource "aws_vpc" "myvpc" {
+resource "aws_vpc" "myvpc-2" {
   cidr_block = "172.0.0.0/16"
   tags = {
     Name = "MY VPC-2"
